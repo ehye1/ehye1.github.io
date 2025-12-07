@@ -13,7 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="flex justify-center my-10"> {children}</body>
+      <body className="flex flex-col items-center my-10 w-full min-h-screen bg-linear-to-b from-white to-sky ">
+        <div className="text-6xl font-sunshiney text-lemon text-stroke">Portfolio</div>
+        {children}
+      </body>
     </html>
   );
 }

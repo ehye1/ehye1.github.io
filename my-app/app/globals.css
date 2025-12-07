@@ -11,16 +11,31 @@
 
   /* shadow */
   --shadow-card: 2px 2px 7px rgba(0, 0, 0, 0.25);
+}
 
-  /* fonts */
-  --font-main: "Noto Sans KR", sans-serif;
-  --font-hand: "Sunshiney", cursive;
+@font-face {
+  font-family: "Sunshiney";
+  src: url("/fonts/Sunshiney-Regular.ttf") format("truetype");
+}
 
-  /* weights */
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
+.font-sunshiney {
+  font-family: "Sunshiney", sans-serif;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("/fonts/NotoSansKR-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.font-noto {
+  font-family: "NotoSansKR", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-lightgray);
+  text-stroke: 1px var(--color-lightgray);
 }
 
 :root {
