@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -54,7 +57,7 @@ export default function Home() {
 
           <div className="flex gap-2.5">
             {/* project1 */}
-            <div className="relative w-[260px] h-[180px] text-[17px]">
+            <Link href="/project1" className="relative w-[260px] h-[180px] text-[17px]">
               <Image src="/images/project1.svg" alt="project1" fill />
               <div className="absolute top-4 left-5 text-gray font-semibold">Skills Passport</div>
               <div className="absolute top-14 left-7 text-black font-medium">역량 관리 플랫폼</div>
@@ -64,7 +67,7 @@ export default function Home() {
               <div className="absolute top-30 left-7 w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center">
                 UX/UI
               </div>
-            </div>
+            </Link>
 
             {/* project2 */}
             <div className="relative w-[260px] h-[180px] text-[17px]">

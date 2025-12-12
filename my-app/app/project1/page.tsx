@@ -1,16 +1,30 @@
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Project1() {
+  const router = useRouter();
+
   return (
-    <div className="w-full h-screen overflow-auto flex justify-center font-noto">
-      <div className="flex flex-col h-520">
+    <div className="w-full h-screen overflow-auto flex justify-center font-noto pt-10">
+      <div className="flex flex-col h-500">
         {/* 스크롤 범위 */}
         <div className="w-60 h-20 rounded-[20px] bg-lemon text-gray font-bold text-center pt-3 text-[20px]">
           Skills Passport
         </div>
         <div className="-mt-7 w-180 h-470 rounded-[20px] bg-lemon py-5 px-9">
           {/* 카드 범위 */}
-          <div className="text-black font-bold text-[19px] pt-4">역량 관리 플랫폼</div>
+          <div onClick={() => router.push("/")} className="cursor-pointer w-fit">
+            <Image
+              src="/images/closeIcon.svg"
+              alt="closeIcon"
+              width={15}
+              height={15}
+              className="ml-155 pt-2"
+            />
+          </div>
+          <div className="text-black font-bold text-[19px]">역량 관리 플랫폼</div>
           <div className="text-gray font-medium text-[16px]">2024.09 ~ 2025.01</div>
           <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center mt-4">
             UX/UI
