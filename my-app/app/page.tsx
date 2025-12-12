@@ -62,7 +62,7 @@ export default function Home() {
                 2024.09 ~ 2025.01
               </div>
               <div className="absolute top-30 left-7 w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center">
-                UI/UX
+                UX/UI
               </div>
             </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
               2025.03 ~ 2025.10
             </div>
             <div className="absolute top-39 left-7 w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center">
-              UI/UX
+              UX/UI
             </div>
             <div className="absolute top-39 left-32 w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center">
               Frontend
