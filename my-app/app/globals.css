@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-lemon: #fff2c0;
+  --color-navy: #1c376b;
+  --color-sky: #c2ecff;
+  --color-gray: #4e4e4e;
+  --color-lightgray: #808080;
+  --color-black: #1e1e1e;
+
+  /* shadow */
+  --shadow-card: 2px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+@font-face {
+  font-family: "Sunshiney";
+  src: url("/fonts/Sunshiney-Regular.ttf") format("truetype");
+}
+
+.font-sunshiney {
+  font-family: "Sunshiney", sans-serif;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("/fonts/NotoSansKR-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.font-noto {
+  font-family: "NotoSansKR", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-lightgray);
+  text-stroke: 1px var(--color-lightgray);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}*/
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
