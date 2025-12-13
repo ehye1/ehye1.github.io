@@ -7,8 +7,8 @@ export default function Project1() {
   const router = useRouter();
 
   return (
-    <div className="w-full h-screen overflow-auto flex justify-center font-noto pt-10">
-      <div className="flex flex-col h-500">
+    <div className="flex justify-center font-noto pt-10">
+      <div className="flex flex-col h-490">
         {/* 스크롤 범위 */}
         <div className="w-60 h-20 rounded-[20px] bg-lemon text-gray font-bold text-center pt-3 text-[20px]">
           Skills Passport
@@ -24,7 +24,7 @@ export default function Project1() {
               className="ml-155 pt-2"
             />
           </div>
-          <div className="text-black font-bold text-[19px]">역량 관리 플랫폼</div>
+          <div className="text-black font-bold text-[19px] -mt-3">역량 관리 플랫폼</div>
           <div className="text-gray font-medium text-[16px]">2024.09 ~ 2025.01</div>
           <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center mt-4">
             UX/UI
@@ -50,11 +50,13 @@ export default function Project1() {
             </div>
             <div className="flex gap-1">
               <p className="font-semibold">배포 링크 : </p>
-              <p>https://skills-passport.nl</p>
+              <p>https://skills-passport.nl/en</p>
             </div>
           </div>
           {/* 기능 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">기능</div>
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
+            기능
+          </div>
           <div className="pl-5 pt-1">
             <li>피드백 입력: 교수·학우·팀원에게서 피드백을 받고 관리</li>
             <li>스킬 추가: 자신이 가진 기술·역량을 직접 등록</li>
@@ -62,7 +64,9 @@ export default function Project1() {
             <li>역량 인증: 교수·팀원에게 역량 인증(증명) 요청 및 수락</li>
           </div>
           {/* 역할 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
+            역할
+          </div>
           <div className="pl-5 pt-1">
             <li>학생 및 교사 환경의 UX/UI 디자인</li>
             <li>처음 사용하는 사용자와 PO를 위한 웹사이트와 Figma 매뉴얼 제작</li>

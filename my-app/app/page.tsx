@@ -70,7 +70,7 @@ export default function Home() {
             </Link>
 
             {/* project2 */}
-            <div className="relative w-[260px] h-[180px] text-[17px]">
+            <Link href="/project2" className="relative w-[260px] h-[180px] text-[17px]">
               <Image src="/images/project2.svg" alt="project2" fill />
               <div className="absolute top-4 left-14 text-gray font-semibold">XPact</div>
               <div className="absolute top-14 left-7 text-black font-medium">경험 정리 플랫폼</div>
@@ -80,7 +80,7 @@ export default function Home() {
               <div className="absolute top-30 left-7 w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center">
                 Frontend
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* project3 */}
