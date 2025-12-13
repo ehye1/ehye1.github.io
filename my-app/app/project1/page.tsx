@@ -74,7 +74,7 @@ export default function Project1() {
             <li>automatic test 구현하여 기능 안정성 지속적으로 검증</li>
           </div>
           {/* 사진 */}
-          <div className="text-gray font-bold pt-6 text-[17px] pb-2">desktop</div>
+          <div className="text-gray font-bold pt-8 text-[17px] pb-2">desktop</div>
           <Image
             src="/images/desktop1.svg"
             alt="project1 desktop"

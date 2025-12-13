@@ -84,7 +84,7 @@ export default function Project1() {
               <li>사용성 개선을 위한 유저 테스트 참여 및 피드백 반영</li>
             </div>
             {/* 사진 */}
-            <div className="text-gray font-bold pt-6 text-[17px] pb-2">desktop</div>
+            <div className="text-gray font-bold pt-8 text-[17px] pb-2">desktop</div>
             <div className="flex flex-col gap-2">
               <Image src="/images/project2_1.svg" alt="project2" width={650} height={200} />
               <Image src="/images/project2_2.svg" alt="project2" width={650} height={200} />
