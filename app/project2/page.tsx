@@ -7,7 +7,7 @@ export default function Project1() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen bg-linear-to-b from-white to-lemon">
+    <div className="flex flex-col items-center w-full min-h-screen bg-gradient-lemon">
       <div className="flex justify-center font-noto pt-10">
         <div className="flex flex-col h-1105">
           {/* 스크롤 범위 */}
