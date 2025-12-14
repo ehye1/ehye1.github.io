@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? "https://ehye1.github.io/github-page/" : "",
+  assetPrefix: isProd ? "https://ehye1.github.io/" : "",
 };
 
 export default nextConfig;
