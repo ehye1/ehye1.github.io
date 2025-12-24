@@ -64,9 +64,7 @@ export default function Project1() {
             </div>
           </div>
           {/* 기능 */}
-          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
-            기능
-          </div>
+          <div className="text-gray font-bold pt-6 text-[17px]">기능</div>
           <div className="pl-5 pt-1">
             <li>MON 단어: 경제 뉴스 핵심 단어를 설명과 예시로 쉽게 학습</li>
             <li>MON 뉴스: AI 난이도 조절을 통해 뉴스 읽기·요약 학습 제공</li>
@@ -76,9 +74,7 @@ export default function Project1() {
             <li>학부모 페이지: 자녀의 학습 상황을 실시간으로 확인 가능</li>
           </div>
           {/* 역할 */}
-          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
-            역할
-          </div>
+          <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
           <div className="pl-5 pt-1">
             <li>로그인·로그아웃 기능 구현</li>
             <li>학부모 페이지 및 랜딩 페이지 UX/UI 디자인</li>
