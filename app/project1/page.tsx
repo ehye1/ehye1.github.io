@@ -54,7 +54,8 @@ export default function Project1() {
             </div>
           </div>
           {/* 기능 */}
-          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
+          <div className="text-gray font-bold pt-6 text-[17px]">
+            {/* <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky"> */}
             기능
           </div>
           <div className="pl-5 pt-1">
@@ -64,9 +65,7 @@ export default function Project1() {
             <li>역량 인증: 교수·팀원에게 역량 인증(증명) 요청 및 수락</li>
           </div>
           {/* 역할 */}
-          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky">
-            역할
-          </div>
+          <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
           <div className="pl-5 pt-1">
             <li>학생 및 교사 환경의 UX/UI 디자인</li>
             <li>처음 사용하는 사용자와 PO를 위한 웹사이트와 Figma 매뉴얼 제작</li>

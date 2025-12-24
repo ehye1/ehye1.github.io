@@ -56,9 +56,7 @@ export default function Project1() {
               </div>
             </div>
             {/* 기능 */}
-            <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-lemon">
-              기능
-            </div>
+            <div className="text-gray font-bold pt-6 text-[17px]">기능</div>
             <div className="pl-5 pt-1">
               <li>
                 경험 대시보드: 작성한 경험을 기반으로 직무 비율을 분석하고 핵심 스킬맵을 통해 필요한
@@ -75,9 +73,7 @@ export default function Project1() {
               <li>경험 메인: 누적된 경험을 한곳에서 정리하고 성장 흐름을 한눈에 파악</li>
             </div>
             {/* 역할 */}
-            <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-lemon">
-              역할
-            </div>
+            <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
             <div className="pl-5 pt-1">
               <li>경험 메인 및 입력 화면 프론트엔드 개발</li>
               <li>경험 유형에 따른 입력 화면 분기 및 성장 가이드 일부 구현</li>
