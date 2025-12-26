@@ -7,14 +7,14 @@ export default function Project1() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen bg-gradient-lemon">
+    <div className="flex flex-col items-center w-full min-h-screen bg-linear-to-b from-white to-main">
       <div className="flex justify-center font-noto pt-10">
         <div className="flex flex-col h-1105">
           {/* 스크롤 범위 */}
-          <div className="w-60 h-20 rounded-[20px] bg-sky text-gray font-bold text-center pt-3 text-[20px]">
+          <div className="w-60 h-20 rounded-[20px] bg-sub text-gray font-bold text-center pt-3 text-[20px]">
             XPact
           </div>
-          <div className="-mt-7 w-180 h-1085 rounded-[20px] bg-sky py-5 px-9">
+          <div className="-mt-7 w-180 h-1085 rounded-[20px] bg-sub py-5 px-9">
             {/* 카드 범위 */}
             <div onClick={() => router.push("/")} className="cursor-pointer w-fit">
               <Image
@@ -27,14 +27,14 @@ export default function Project1() {
             </div>
             <div className="text-black font-bold text-[19px] -mt-3">경험 정리 플랫폼</div>
             <div className="text-gray font-medium text-[16px]">2025.03 ~ 2025.07</div>
-            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center mt-4">
+            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-lightgray text-gray text-[16px] font-medium text-center mt-4">
               Frontend
             </div>
             <div className="flex gap-2 text-gray text-[16px] font-medium text-center mt-2">
-              <div className="w-24 h-7 bg-lemon rounded-[30px] ">Figma</div>
-              <div className="w-24 h-7 bg-lemon rounded-[30px]">Next.js</div>
-              <div className="w-24 h-7 bg-lemon rounded-[30px]">React</div>
-              <div className="w-24 h-7 bg-lemon rounded-[30px]">Netlify</div>
+              <div className="w-24 h-7 bg-main rounded-[30px] ">Figma</div>
+              <div className="w-24 h-7 bg-main rounded-[30px]">Next.js</div>
+              <div className="w-24 h-7 bg-main rounded-[30px]">React</div>
+              <div className="w-24 h-7 bg-main rounded-[30px]">Netlify</div>
             </div>
             {/* 간단설명 */}
             <div className="flex flex-col gap-1 mt-5">
@@ -56,7 +56,9 @@ export default function Project1() {
               </div>
             </div>
             {/* 기능 */}
-            <div className="text-gray font-bold pt-6 text-[17px]">기능</div>
+            <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-main">
+              기능
+            </div>
             <div className="pl-5 pt-1">
               <li>
                 경험 대시보드: 작성한 경험을 기반으로 직무 비율을 분석하고 핵심 스킬맵을 통해 필요한
@@ -73,7 +75,9 @@ export default function Project1() {
               <li>경험 메인: 누적된 경험을 한곳에서 정리하고 성장 흐름을 한눈에 파악</li>
             </div>
             {/* 역할 */}
-            <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
+            <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-main">
+              역할
+            </div>
             <div className="pl-5 pt-1">
               <li>경험 메인 및 입력 화면 프론트엔드 개발</li>
               <li>경험 유형에 따른 입력 화면 분기 및 성장 가이드 일부 구현</li>

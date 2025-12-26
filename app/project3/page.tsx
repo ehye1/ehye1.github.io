@@ -10,10 +10,10 @@ export default function Project1() {
     <div className="flex justify-center font-noto pt-10">
       <div className="flex flex-col h-960">
         {/* 스크롤 범위 */}
-        <div className="w-60 h-20 rounded-[20px] bg-lemon text-gray font-bold text-center pt-3 text-[20px]">
+        <div className="w-60 h-20 rounded-[20px] bg-main text-gray font-bold text-center pt-3 text-[20px]">
           MONDAY
         </div>
-        <div className="-mt-7 w-180 h-940 rounded-[20px] bg-lemon py-5 px-9">
+        <div className="-mt-7 w-180 h-940 rounded-[20px] bg-main py-5 px-9">
           {/* 카드 범위 */}
           <div onClick={() => router.push("/")} className="cursor-pointer w-fit">
             <Image
@@ -29,16 +29,22 @@ export default function Project1() {
           </div>
           <div className="text-gray font-medium text-[16px]">2025.03 ~ 2025.10</div>
           <div className="flex gap-2 text-gray text-[16px] font-medium text-center mt-4">
-            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray">UX/UI</div>
-            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray">Frontend</div>
-            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray">Backend</div>
+            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-lightgray">
+              UX/UI
+            </div>
+            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-lightgray">
+              Frontend
+            </div>
+            <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-lightgray">
+              Backend
+            </div>
           </div>
           <div className="flex gap-2 text-gray text-[16px] font-medium text-center mt-2">
-            <div className="w-24 h-7 bg-sky rounded-[30px] ">Figma</div>
-            <div className="w-24 h-7 bg-sky rounded-[30px]">Next.js</div>
-            <div className="w-24 h-7 bg-sky rounded-[30px]">React</div>
-            <div className="w-24 h-7 bg-sky rounded-[30px]">Node.js</div>
-            <div className="w-24 h-7 bg-sky rounded-[30px]">MongoDB</div>
+            <div className="w-24 h-7 bg-sub rounded-[30px] ">Figma</div>
+            <div className="w-24 h-7 bg-sub rounded-[30px]">Next.js</div>
+            <div className="w-24 h-7 bg-sub rounded-[30px]">React</div>
+            <div className="w-24 h-7 bg-sub rounded-[30px]">Node.js</div>
+            <div className="w-24 h-7 bg-sub rounded-[30px]">MongoDB</div>
           </div>
           {/* 간단설명 */}
           <div className="flex flex-col gap-1 mt-5">
@@ -64,7 +70,9 @@ export default function Project1() {
             </div>
           </div>
           {/* 기능 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">기능</div>
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sub">
+            기능
+          </div>
           <div className="pl-5 pt-1">
             <li>MON 단어: 경제 뉴스 핵심 단어를 설명과 예시로 쉽게 학습</li>
             <li>MON 뉴스: AI 난이도 조절을 통해 뉴스 읽기·요약 학습 제공</li>
@@ -74,7 +82,9 @@ export default function Project1() {
             <li>학부모 페이지: 자녀의 학습 상황을 실시간으로 확인 가능</li>
           </div>
           {/* 역할 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sub">
+            역할
+          </div>
           <div className="pl-5 pt-1">
             <li>로그인·로그아웃 기능 구현</li>
             <li>학부모 페이지 및 랜딩 페이지 UX/UI 디자인</li>
