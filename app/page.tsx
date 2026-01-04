@@ -43,7 +43,14 @@ export default function Home() {
             </div>
             <div className="flex gap-2">
               <Image src="/images/clip.svg" alt="Clip icon" width={21} height={21} />
-              <p>github.com/ehye1</p>
+              <Link
+                href="https://github.com/ehye1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                github.com/ehye1
+              </Link>
             </div>
           </div>
           <div className="flex justify-center items-center w-24 h-10 bg-main text-gray font-medium rounded-[30px] border border-lightgray mt-3">
