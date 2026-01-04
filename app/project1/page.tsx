@@ -10,10 +10,10 @@ export default function Project1() {
     <div className="flex justify-center font-noto pt-10">
       <div className="flex flex-col h-490">
         {/* 스크롤 범위 */}
-        <div className="w-60 h-20 rounded-[20px] bg-lemon text-gray font-bold text-center pt-3 text-[20px]">
-          Skills Passport
+        <div className="w-50 h-20 rounded-[20px] bg-main text-gray font-bold text-center pt-3 text-[20px]">
+          프로젝트 개요
         </div>
-        <div className="-mt-7 w-180 h-470 rounded-[20px] bg-lemon py-5 px-9">
+        <div className="-mt-7 w-180 h-470 rounded-[20px] bg-main py-5 px-9">
           {/* 카드 범위 */}
           <div onClick={() => router.push("/")} className="cursor-pointer w-fit">
             <Image
@@ -24,12 +24,14 @@ export default function Project1() {
               className="ml-155 pt-2"
             />
           </div>
-          <div className="text-black font-bold text-[19px] -mt-3">역량 관리 플랫폼</div>
+          <div className="text-black font-bold text-[19px] -mt-3">
+            Skills Passport : 역량 관리 플랫폼
+          </div>
           <div className="text-gray font-medium text-[16px]">2024.09 ~ 2025.01</div>
-          <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-gray text-gray text-[16px] font-medium text-center mt-4">
+          <div className="w-24 h-7 bg-[#F2F2F7] rounded-[30px] border border-lightgray text-gray text-[16px] font-medium text-center mt-4">
             UX/UI
           </div>
-          <div className="w-24 h-7 bg-sky rounded-[30px] text-gray text-[16px] font-medium text-center mt-2">
+          <div className="w-24 h-7 bg-sub rounded-[30px] text-gray text-[16px] font-medium text-center mt-2">
             Figma
           </div>
           {/* 간단설명 */}
@@ -54,7 +56,7 @@ export default function Project1() {
             </div>
           </div>
           {/* 기능 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sub">
             {/* <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sky"> */}
             기능
           </div>
@@ -64,8 +66,10 @@ export default function Project1() {
             <li>역량 시각화: 보유 역량을 파이 차트로 한눈에 확인</li>
             <li>역량 인증: 교수·팀원에게 역량 인증(증명) 요청 및 수락</li>
           </div>
-          {/* 역할 */}
-          <div className="text-gray font-bold pt-6 text-[17px]">역할</div>
+          {/* 기여한 부분 */}
+          <div className="text-gray font-bold pt-6 text-[17px] underline decoration-5 underline-offset-0 decoration-sub">
+            기여한 부분
+          </div>
           <div className="pl-5 pt-1">
             <li>학생 및 교사 환경의 UX/UI 디자인</li>
             <li>처음 사용하는 사용자와 PO를 위한 웹사이트와 Figma 매뉴얼 제작</li>

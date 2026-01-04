@@ -13,8 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="flex flex-col items-center w-full min-h-screen bg-gradient-sky">
-        <div className="text-[52px] font-sunshiney text-lemon text-stroke pt-7">Portfolio</div>
+      <body className="flex flex-col items-center w-full min-h-screen bg-linear-to-b from-white to-sub">
+        <div className="text-[52px] font-sunshiney text-main text-stroke pt-7">Portfolio</div>
         {children}
       </body>
     </html>

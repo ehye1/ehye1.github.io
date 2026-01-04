@@ -1,59 +1,16 @@
 @import "tailwindcss";
 
-@layer theme {
-  :root {
-    /* colors */
-    --lemon: #fff2c0;
-    --navy: #1c376b;
-    --sky: #c2ecff;
-    --gray: #4e4e4e;
-    --lightgray: #808080;
-    --black: #1e1e1e;
+@theme {
+  /* colors */
 
-    /* shadow */
-    --shadow-card: 2px 2px 7px rgba(0, 0, 0, 0.25);
-  }
-}
-
-/* semantic utilities */
-.bg-navy {
-  background-color: var(--navy);
-}
-.text-navy {
-  color: var(--navy);
-}
-.bg-lemon {
-  background-color: var(--lemon);
-}
-.text-lemon {
-  color: var(--lemon);
-}
-.bg-sky {
-  background-color: var(--sky);
-}
-.text-gray {
-  color: var(--gray);
-}
-.bg-lightgray {
-  color: var(--lightgray);
-}
-.text-lightgray {
-  color: var(--lightgray);
-}
-.text-black {
-  color: var(--black);
-}
-.border-gray {
-  border-color: var(--gray);
-}
-.border-lightgray {
-  border-color: var(--lightgray);
-}
-.bg-gradient-sky {
-  background: linear-gradient(to bottom, white, var(--sky));
-}
-.bg-gradient-lemon {
-  background: linear-gradient(to bottom, white, var(--lemon));
+  /* lemon */
+  --color-main: #fff2c0;
+  /* sky */
+  --color-sub: #c2ecff;
+  --color-navy: #1c376b;
+  --color-gray: #4e4e4e;
+  --color-lightgray: #808080;
+  --color-black: #1e1e1e;
 }
 
 @font-face {
@@ -77,8 +34,13 @@
 }
 
 .text-stroke {
-  -webkit-text-stroke: 1px var(--lightgray);
-  text-stroke: 1px var(--lightgray);
+  -webkit-text-stroke: 1px var(--color-lightgray);
+  text-stroke: 1px var(--color-lightgray);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 /* @theme inline {
